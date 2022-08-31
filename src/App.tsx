@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar } from './components/Navbar/Navbar';
+import { TodoForm } from './components/TodoForm/TodoForm';
 
 
 const App: React.FC = () => {
@@ -7,7 +8,7 @@ const App: React.FC = () => {
   <>
       <Navbar></Navbar>
       <div className="container">
-        <h1>Test</h1>
+        <TodoForm />
       </div>
   </>
   )
